@@ -5,7 +5,8 @@ In questo esempio, la classe `Artista` rappresenta il thread dell'artista che es
 
 La classe principale `SimulazioneArtistiDiStrada` crea e avvia i thread dell'artista e dei clienti. Il numero di sedie disponibili è rappresentato dal semaforo `sedie`.
 
-Quando un cliente arriva, cerca di acquisire una sedia utilizzando il metodo `tryAcquire()` del semaforo. 
+Quando un cliente arriva, cerca di acquisire una sedia utilizzando il metodo `tryAcquire()` del semaforo.
+
 - > Se riesce ad acquisire una sedia, si siede, attende un tempo casuale per il ritratto e quindi rilascia la sedia.
 - > Se non riesce ad acquisire una sedia, rinuncia a farsi fare il ritratto.
 
