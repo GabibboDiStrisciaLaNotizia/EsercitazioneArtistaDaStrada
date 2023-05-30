@@ -11,4 +11,6 @@ Quando un cliente arriva, cerca di acquisire una sedia utilizzando il metodo `tr
 
 L'artista, nel suo ciclo principale, acquisisce una sedia utilizzando il metodo `acquire()` del semaforo. Successivamente esegue il ritratto per un tempo casuale utilizzando il metodo `sleep()`.
 
-Dopo aver completato il ritratto, rilascia la sedia utilizzando il metodo `release()` del semaforo e attende un breve periodo prima di accettare un altro cliente. In questo modo, i clienti che arrivano si siederanno solo se ci sono sedie disponibili. Se tutte le sedie sono occupate, rinunceranno a farsi fare il ritratto.
+Dopo aver completato il ritratto, rilascia la sedia utilizzando il metodo `release()` del semaforo e attende un breve periodo prima di accettare un altro cliente. In questo modo, i clienti che arrivano si siederanno solo se ci sono sedie disponibili.
+
+- > Se tutte le sedie sono occupate, rinunceranno a farsi fare il ritratto.
